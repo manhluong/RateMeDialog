@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+I don't use onClick, to leave the event methods in the DialogFragment subclass.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical"
+   android:background="#44777777">
+   
+   <TextView android:id="@+id/title"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:padding="3dip"
+       android:gravity="left"
+       android:textStyle="bold"
+       android:textSize="20sp"
+       android:layout_margin="3dip"
+       android:background="@drawable/ratemedialog_title_shape"
+       android:textColor="@android:color/background_light"
+       android:text="@string/ratemedialog_title"/>
+
+   <TextView android:id="@+id/please"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:padding="10sp"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:textSize="13dip"
+       android:layout_margin="3dip"
+       android:background="@drawable/ratemedialog_please_shape"
+       android:text="@string/ratemedialog_please"/>
+   
+   <Button android:id="@+id/more"
+       android:text="@string/ratemedialog_more"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:textStyle="bold"
+       android:layout_margin="3dip"
+       android:background="@drawable/ratemedialog_button_shape"/>
+    
+   <Button android:id="@+id/never"
+       android:text="@string/ratemedialog_never"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:textStyle="bold"
+       android:layout_margin="3dip"
+       android:background="@drawable/ratemedialog_button_shape"/>
+   
+   <Button android:id="@+id/later"
+       android:text="@string/ratemedialog_later"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:textStyle="bold"
+       android:layout_margin="3dip"
+       android:background="@drawable/ratemedialog_button_shape"/>
+   
+   <Button android:id="@+id/rate"
+       android:text="@string/ratemedialog_rate"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:textStyle="bold"
+       android:layout_margin="3dip"
+       android:background="@drawable/ratemedialog_button_shape"/>
+
+</LinearLayout>

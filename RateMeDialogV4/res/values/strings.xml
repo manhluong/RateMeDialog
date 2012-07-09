@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ratemedialog_app_name">RateMeDialogV4</string>
+    <string name="ratemedialog_rate">Rate</string>
+    <string name="ratemedialog_later">Later</string>
+    <string name="ratemedialog_never">Never</string>
+    <string name="ratemedialog_please">Do you like this app?\nPlease, rate it on the Market!</string>
+    <string name="ratemedialog_more">More apps!</string>
+    <string name="ratemedialog_title">Please, rate the app!</string>
+</resources>
